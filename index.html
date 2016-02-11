@@ -25,6 +25,8 @@
       <p>I've come to appreciate how cool I look typing things into a terminal (even on Windows. Maybe especially on Windows).<br>
       Thanks for making navigation, file creation, and file removal so simple.<br>
       I don't even have to touch my mouse.<br></p>
+
+      <!-- Navigation -->
       <h3>In order to do anything remotely useful,</h3> 
       <p>we have to know how to navigate. Correct me if I'm wrong, ok?</br>
       First off, I <em>list</em> the contents of my present directory using <b>ls</b>.<br>
@@ -32,14 +34,27 @@
       I can now <b>ls</b> to see the contents of my new directory.</p>
       <p>Some time-saving shortcuts:<br>
         <ul>
-          <li>pwd: displays the <em>present working directory</em> (in case you ever get lost)</li>
+          <li>pwd: displays the <em>present working directory</em> (in case I ever get lost)</li>
           <li>cd ~: change to home directory</li>
           <li>cd /: change to root directory</li>
         </ul>
       </p>
       <p>To <strong>cd</strong> multiple levels, simply duplicate the path name: <br>
-      <code>cd directory/nextlevel</code>
+      <code>cd directory/nextlevel</code><br>
+      Or if moving outwards, replace each name in the path with ..<br>
+      <code>cd ../.</code><br>
+      Did I get that right?
       </p>
+
+      <!-- Creation & Removal -->
+      <h3>Onto something potentially dangerous...</h3>
+      <p>...creating and removing directories and files. Really creation is the simple part, it's <br>
+      removal that could potentially get sticky. <br>
+      <em>Make a new directory</em> using <strong>mkdir directoryname</strong>. I know now I can <strong>ls</strong> to make sure it's there. <br>
+      But what if I want the power to delete stuff? Well. I love and hate how hard you've made it to delete, Bash. <br>
+      <em>Remove a directory</em> using <strong>rmdir directoryname</strong>. And it'll be gone, no warning or anything...if it's already an empty directory. But if it's full, <br>
+      I have to go in and delete the contents. Which, granted I can do with some fancy flags but...<br>
+      ...I can never remember them. It's ok, I'm content doing that throught the UI anyways.</p>
     </main>
 
     <footer>
