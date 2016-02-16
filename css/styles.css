@@ -88,7 +88,6 @@ main {
 
 nav {
   clear: both;
-  font-family: 'Give You Glory', cursive;
   font-size: 0.8em;
   font-weight: bold;
   margin: 0 auto;
@@ -117,7 +116,7 @@ nav a:hover {
 
 p {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 1.4em;
   margin-bottom: 1.5em;
 }
@@ -144,8 +143,10 @@ ul {
 }
 
 #rose {
-  float: left;
+  bottom: -10%;
+  left: 5%;
   opacity: 0.2;
   position: fixed;
-  top: 30%;
+  
+
 }
