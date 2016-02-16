@@ -3,24 +3,35 @@
   <head>
     <meta charset="utf-8">
     <link href="css/styles.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- Fonts --> 
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=La+Belle+Aurore' rel='stylesheet' type='text/css'>
+
     <title>A Bash Love Letter</title>
   </head>
   <body>
-    <header>
+    <header class="centerme">
         <h1>A Bash Love Letter (Tutorial)</h1>
     </header>
     <nav>
       <ul>
-        <li>About</li>
-        <li>Navigation</li>
-        <li>Creating & Removing Files</li>
-        <li>Reading Files</li>
-        <li>Other</li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#nav">Navigation</a></li>
+        <li><a href="#create">Creating & Removing Files</a></li>
+        <li><a href="#read">Reading Files</a></li>
+        <li><a href="#other">Other</a></li>
       </ul>
     </nav>
     
-    <main>
-      <h1>Dear Bash,</h1>
+    <main class="centerme">
+      <h2>Dear Bash,</h2>
       <h3>Though best learned on a Linux-based machine,</h3>
       <p>I've come to appreciate how cool I look typing things into a terminal (even on Windows. Maybe especially on Windows).<br>
       Thanks for making navigation, file creation, and file removal so simple.<br>
@@ -40,12 +51,9 @@
       <p>To <strong>cd</strong> multiple levels, simply duplicate the path name: <br>
       <code>cd directory/nextlevel</code>
       </p>
+
+      <h4>In the name of shell scripting,</h4><br>
+      <p>Caleb</p>
     </main>
-
-    <footer>
-    <h4>In the name of shell scripting,</h4><br>
-    <p>Caleb</p>
-    </footer>
-
   </body>
 </html>
