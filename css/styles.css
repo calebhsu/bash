@@ -33,6 +33,12 @@ a:hover {
   color: rgba(55, 100, 113, 1);
 }
 
+body li {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1em;
+  line-height: 1.4em;
+}
+
 h1 {
   font-family: 'La Belle Aurore', cursive;
   margin: 3em 1em 0;  
@@ -42,13 +48,14 @@ h1 {
 
 h2 {
   font-family: 'La Belle Aurore', cursive;
+  font-size: 1.8em;
   font-weight: bolder;
   margin: 0.5em 1em;
 }
 
-h3 {
+h3, h4 {
   color: rgba(65, 100, 113, 1);
-  font-family: 'Josefin Slab', 'Book Antiqua', serif;
+  font-family: 'Give You Glory', cursive;
   font-weight: bold;
   margin: 0.5em 1em;
   overflow: hidden;
@@ -81,10 +88,10 @@ main {
 
 nav {
   clear: both;
-  font-family: 'Lato', sans-serif;
-  font-size: 0.7em;
+  font-family: 'Give You Glory', cursive;
+  font-size: 0.8em;
   font-weight: bold;
-  margin: 1% auto;
+  margin: 0 auto;
   padding: 0.5em 0.3em 0.5em 0.5em;
   text-align: center;
   text-transform: uppercase;
@@ -109,8 +116,8 @@ nav a:hover {
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 0.8em;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1em;
   line-height: 1.4em;
   margin-bottom: 1.5em;
 }
